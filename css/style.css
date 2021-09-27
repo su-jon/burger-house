@@ -1,0 +1,487 @@
+/* ======================================
+COMMON CSS
+====================================== */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+.container{
+    max-width: 960px;
+    width: 96%;
+    margin: 0 auto;
+}
+img{
+    width: 100%;
+}
+
+
+/* font-family: 'Alfa Slab One', cursive;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Montserrat', sans-serif; */
+
+
+/* ======================================
+HEADER AREA CSS
+====================================== */
+.header_area{
+    background: #ffc657;
+}
+/* .inner_header_area{} */
+.top_header {
+    display: flex;
+    padding-top: 50px;
+}
+.logo{
+    width: 50%;
+}
+.logo img {
+    width: 233px;
+}
+.navbar{
+    width: 50%;
+    text-align: right;
+}
+.navbar h5 {
+    font-size: 13px;
+    padding-bottom: 13px;
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar h5 i {
+    font-size: 25px;
+    padding: 5px;
+}
+
+
+
+/* #main_menu{} */
+#main_menu ul{
+    list-style: none;
+}
+#main_menu ul li{
+    display: inline-block;
+    position: relative;
+}
+#main_menu ul li a {
+    font-size: 16px;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #3d2514;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+}
+#main_menu ul li a:last-child{
+    
+    padding-right: 0;
+}
+#main_menu ul li a:hover{
+    color: #bf2222;
+    transition: .3s;
+}
+
+
+
+/* TITLE HEADER */
+
+.title_header{
+    display: flex;
+}
+.title_text{
+    width: 45%;
+    text-transform: uppercase;
+    color: #3d2514;
+}
+.title_text p {
+    font-size: 16px;
+    margin-top: 200px;
+    margin-bottom: 5px;
+    padding: 5px 10px;
+    border: 1px solid #3d2514;
+    font-family: 'Bebas Neue', cursive;
+    margin-right: 110px;
+    letter-spacing: 1px;
+}
+.title_text h1{
+    font-size: 80px;
+    padding-bottom: 5px;
+    font-family: 'Alfa Slab One', cursive;
+}
+.title_text h3{
+    font-size: 40px;
+    font-family: 'Alfa Slab One', cursive;
+}
+.title_image{
+    width: 55%;
+    position: relative;
+    
+}
+.title_image img {
+    width: 555px;
+}
+/* .price_image{} */
+.price_image img {
+    width: 100px;
+    position: absolute;
+    top: 355px;
+    left: 55px;
+}
+
+
+
+
+
+
+
+
+/* ======================================
+BANNER AREA CSS
+====================================== */
+.banner_area{
+    background: #ffffff;
+    padding-top: 75px;
+}
+.inner_banner_area{
+    overflow: hidden;
+}
+.left_image {
+    width: 48%;
+    float: left;
+}
+.left_image img {
+    border-radius: 13px;
+    cursor: pointer;
+}
+.right_image{
+    width: 48%;
+    float: right;
+}
+.right_image img {
+    border-radius: 13px;
+    margin-bottom: 22px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ======================================
+SERVICE AREA CSS
+====================================== */
+.service_area{
+    background: #ffffff;
+}
+.inner_service_area{
+    padding-top: 55px;
+}
+.service_text{
+    text-align: center;
+}
+.service_text button{
+    font-size: 16px;
+    padding: 8px 20px;
+    border:0;
+    background: #ffc045;
+    color: #3d2514;
+    margin-bottom:13px;
+    font-family: 'Bebas Neue', cursive;
+}
+.service_text h2 {
+    color: #3d2514;
+    margin-bottom: 13px;
+    font-size: 40px;
+    font-family: 'Alfa Slab One', cursive;
+}
+.service_text p {
+    color: #3d2514;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 28px;
+}
+.service{
+    display: flex;
+    margin-top: 38px;
+}
+.service_one{
+    width: 33.33%;
+    text-align: center;
+}
+.service_one img{
+    margin-bottom: 5px;
+}
+.service_one h3{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 33px;
+    margin-bottom: 5px;
+    color:#3d2514;
+}
+.service_one p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    margin-bottom: 22px;
+    color: #3d2514;
+}
+.service_one button{
+    font-family: 'Alfa Slab One', cursive;
+    padding: 10px 22px;
+    cursor: pointer;
+    font-size: 16px;
+    background: #bf2222;
+    color: #ffffff;
+    border:0;
+}
+.service_one button:hover{
+    background: #ffc045;
+    color: #3d2514;
+    transition: .3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ======================================
+EVENT AREA CSS
+====================================== */
+.event_area{
+    background: #ffffff;
+}
+.inner_event_area {
+    margin-top: 55px;
+    display: flex;
+}
+.event_text{
+    width: 40%;
+    padding: 20px;
+    float: left;
+}
+.event_text h3 {
+    font-family: "Bebas Neue", cursive;
+    font-size: 28px;
+    color: #3d3d3d;
+    margin-top: 20px;
+}
+.event_text h2 {
+    font-family: "Alfa Slab One", cursive;
+    font-size: 38px;
+    color: rgb(61, 37, 20);
+    padding-bottom: 13px;
+}
+.event_text p {
+    font-family: 'Montserrat', sans-serif;
+    color: #3d3d3d;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 33px;
+}
+
+.event_image{
+    width: 48%;
+    padding: 20px;
+    float: right;
+}
+/* .event_image img{} */
+
+
+
+
+
+
+
+
+
+
+
+/* ======================================
+RESERVATION AREA CSS
+====================================== */
+.reservation_area{
+    position: relative;
+}
+.inner_reservation_area{
+    padding-top: 47px;
+}
+.text_reservation{
+    text-align: center;
+}
+.text_reservation h3{
+    font-size: 28px;
+    color:#3d2514;
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+}
+.text_reservation h2 {
+    font-size: 38px;
+    font-family: 'Alfa Slab One', cursive;
+    margin-bottom: 42px;
+    color: #3d2514;
+    text-transform: uppercase;
+}
+.text_reservation form{
+    width: 80%;
+    margin:0 auto;
+}
+.text_reservation form input{
+    font-family: 'Bebas Neue', cursive;
+    width: 45%;
+    margin:10px 15px 10px 15px;
+    padding: 16px 0;
+    border: 1px solid #bebebe;
+    font-size: 18px;
+    text-indent: 10px;
+}
+.text_reservation form input[type="submit"]{
+    font-family: 'Alfa Slab One', cursive;
+    background: #bf2222;
+    color: #ffffff;
+    cursor: pointer;
+    border:0 ;
+}
+.text_reservation form input[type="submit"]:hover{
+    background: #ffc045;
+    color: #3d2514;
+    transition: .3s;
+}
+/* /* .image_reservation{} */
+.image_reservation img{
+    z-index: -1;
+}
+.image1{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 200px;
+}
+.image2 {
+    position: absolute;
+    left: 100px;
+    top: 120px;
+    width: 233px;
+}
+.image3 {
+    position: absolute;
+    right: 0;
+    top: 140px;
+    width: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+/* ======================================
+FOOTER AREA CSS
+====================================== */
+.footer_area{
+    margin-top: 125px;
+}
+.inner_footer_area{
+    background: url(../images/footer_background.jpg);
+    overflow: hidden;
+}
+.footer{
+    color: #ffffff;
+}
+.left_footer {
+    width: 50%;
+    float: left;
+    padding: 28px;
+    margin-top: 55px;
+}
+.left_footer p {
+    font-size: 13px;
+    line-height: 2;
+    margin-top: 28px;
+    padding-right: 80px;
+    font-family: 'Montserrat', sans-serif;
+}
+/* .footer_logo{} */
+.footer_logo img{
+    width: 233px;
+    cursor: pointer;
+}
+.right_footer {
+    width: 40%;
+    float: right;
+    padding: 20px;
+    margin-top: 170px;
+}
+.right_footer p {
+    line-height: 1.7;
+    font-size: 18px;
+    padding-left: 13px;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+}
+.right_footer i {
+    font-size: 22px;
+    padding: 10px;
+}
+
+
+/* COPYRIGHT FOOTER */
+.inner_bottom_footer {
+    color: rgb(255, 255, 255);
+    clear: both;
+    padding-top: 110px;
+    padding-bottom: 90px;
+}
+.copyright_area{
+    width:50%;
+    float: left;
+}
+.copyright_area p {
+    font-size: 16px;
+    padding: 22px 20px;
+    text-align: left;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+}
+.copyright_area a {
+    color: #ffc045;
+    text-decoration: none;
+    padding: 10px;
+}
+.copyright_area a:hover{
+    color:#bf2222;
+    transition: .3s;
+}
+.social_area {
+    width: 40%;
+    float: right;
+    text-align: right;
+    padding: 5px 28px;
+}
+.social_area i {
+    width: 16px;
+    margin: 0 5px;
+    color: #090908;
+    font-size: 16px;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 25px;
+}
+.social_area i:hover {
+    background: #ffc045;
+    color: #3d2514;
+    transition: .3s;
+}
+

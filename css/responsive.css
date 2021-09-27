@@ -1,0 +1,51 @@
+/* TABLET LAYOUT */
+@media only screen and (min-width:200px) and (max-width:991px) {
+    .top_header{display: inline;}
+    .navbar h5 {text-align: left;margin-top: 50px;}
+    .mean-container .mean-bar {background: #3d2514;}
+    .mean-container .mean-nav ul li a:hover {background: #ffc657;color: #3d2514;transition: .3s;}
+    .mean-container .mean-nav ul li a {background: #3d2514;border-top: 1px solid #ffc657;font-family: 'Bebas Neue', cursive; letter-spacing: 2px;}
+    .logo {padding-top: 80px;}
+    .mean-container .mean-bar {margin-bottom: 16px;}
+    .title_text p {margin-top: 5px;margin-right: 0;}
+    .title_image img {width: 100%;}
+    .title_image .price_image img {width: 80px;position: absolute;top: 265px;left: 55px;}
+    .right_footer {width: 40%;padding: 1%;}
+    .left_footer {padding: 3%; }
+    .left_footer p {padding-right: 0;}
+    .social_area {width: 38%;padding: 20px 5%;}
+    .copyright_area p {padding: 20px 5%;}
+}
+
+
+
+/* MOBILE LAYOUT */
+@media only screen and (min-width:200px) and (max-width:480px) {
+    .navbar {width: 100%;}
+    .title_text {width: 100%;}
+    .title_text h1 {font-size: 55px;}
+    .title_text h3 {font-size: 28px;}
+    .title_image {width: 100%;}
+    .title_header {display: block;}
+    .left_image {width: 100%;float: none;}
+    .right_image {width: 100%;float: none;}
+    .right_image img {margin-bottom: 0;margin-top: 10px;}
+    .service_text h2 {font-size: 33px;}
+    .service {display: block;}
+    .service_one {margin-top: 33px;width: 100%;padding: 20px 0;border: 1px solid #bf2222;}
+    .service_one img {margin-bottom: 0;}
+    .event_text h2 {font-size: 33px;}
+    .inner_event_area {margin-top: 55px;display: block;}
+    .event_text {width: 100%;padding: 13px;float: none;}
+    .event_image {width: 100%;padding: 13px;float: none;}
+    .event_text p {margin-bottom: 10px;}
+    .text_reservation h2 {font-size: 33px;}
+    .text_reservation form {width: 100%;}
+    .text_reservation form input {width: 80%;}
+    .left_footer {width: 100%;float: none;}
+    .right_footer {width: 100%;float: none;margin-top: 55px;}
+    .inner_bottom_footer {padding-top: 128px;padding-bottom: 69px;}
+    .copyright_area {width: 100%;float: none;}
+    .copyright_area p {padding: 10px 5%;text-align: center;}
+    .social_area {width: 90%;padding: 3px 5%;text-align: center;}
+}
